@@ -1,9 +1,10 @@
 // libraries
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => (
   <footer className="page-footer">
-    <a className="logo logo--light" href="/">WTW</a>
+    <Link className="logo logo--light" to="/">WTW</Link>
 
     <div className="copyright">© 2020 What to watch Ltd.</div>
   </footer>

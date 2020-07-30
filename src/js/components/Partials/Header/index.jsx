@@ -1,5 +1,6 @@
 // libraries
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 // views
 import SearchBar from '../SearchBar';
 // constants
@@ -25,15 +26,15 @@ const Header = () => {
   return (
     <header className={`page-header ${isMobileNavOpened ? 'page-header__show-menu' : ''}`}>
       <div className="container">
-        <a className="logo" href="/">WTW</a>
+        <Link className="logo" to="/">WTW</Link>
         <div className="page-header__menu-wrapper">
           <nav>
             <ul className="page-nav">
               <li className="page-nav__item">
-                <a className="page-nav__link" href={`/${CATEGORIES.movie}/1`}>Movies</a>
+                <Link className="page-nav__link" to={`/${CATEGORIES.movie}/1`}>Movies</Link>
               </li>
               <li className="page-nav__item">
-                <a className="page-nav__link" href={`/${CATEGORIES.tv}/1`}>TV Shows</a>
+                <Link className="page-nav__link" to={`/${CATEGORIES.tv}/1`}>TV Shows</Link>
               </li>
             </ul>
           </nav>

@@ -57,12 +57,12 @@ exports[`Big Movie Card:  correctly renders with card data 1`] = `
           >
             Here's to the fools who dream.
           </i>
-          <a
+          <Link
             className="button movie-card__button"
-            href="/details/movie/313369"
+            to="/details/movie/313369"
           >
             More Info
-          </a>
+          </Link>
         </div>
       </div>
     </div>

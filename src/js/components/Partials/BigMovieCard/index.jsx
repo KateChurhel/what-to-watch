@@ -1,6 +1,7 @@
 // libraries
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 // constants
 import { URL_IMAGE } from '../../../constants/url';
 import CATEGORIES from '../../../constants/categories';
@@ -29,7 +30,7 @@ const BigMovieCard = ({
             </p>
             <i className="movie-card__tagline movie-card__tagline--main">{tagline}</i>
 
-            <a className="button movie-card__button" href={`/details/${CATEGORIES.movie}/${id}`}>More Info</a>
+            <Link className="button movie-card__button" to={`/details/${CATEGORIES.movie}/${id}`}>More Info</Link>
           </div>
         </div>
       </div>

@@ -7,12 +7,12 @@ exports[`Header:  correctly renders 1`] = `
   <div
     className="container"
   >
-    <a
+    <Link
       className="logo"
-      href="/"
+      to="/"
     >
       WTW
-    </a>
+    </Link>
     <div
       className="page-header__menu-wrapper"
     >
@@ -23,22 +23,22 @@ exports[`Header:  correctly renders 1`] = `
           <li
             className="page-nav__item"
           >
-            <a
+            <Link
               className="page-nav__link"
-              href="/movie/1"
+              to="/movie/1"
             >
               Movies
-            </a>
+            </Link>
           </li>
           <li
             className="page-nav__item"
           >
-            <a
+            <Link
               className="page-nav__link"
-              href="/tv/1"
+              to="/tv/1"
             >
               TV Shows
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
@@ -64,12 +64,12 @@ exports[`Header:  open mobile menu 1`] = `
   <div
     className="container"
   >
-    <a
+    <Link
       className="logo"
-      href="/"
+      to="/"
     >
       WTW
-    </a>
+    </Link>
     <div
       className="page-header__menu-wrapper"
     >
@@ -80,22 +80,22 @@ exports[`Header:  open mobile menu 1`] = `
           <li
             className="page-nav__item"
           >
-            <a
+            <Link
               className="page-nav__link"
-              href="/movie/1"
+              to="/movie/1"
             >
               Movies
-            </a>
+            </Link>
           </li>
           <li
             className="page-nav__item"
           >
-            <a
+            <Link
               className="page-nav__link"
-              href="/tv/1"
+              to="/tv/1"
             >
               TV Shows
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>

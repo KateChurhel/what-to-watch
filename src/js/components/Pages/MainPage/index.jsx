@@ -1,6 +1,7 @@
 // libraries
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 // constants
 import CATEGORIES from '../../../constants/categories';
 // views
@@ -16,7 +17,7 @@ const MainPage = ({ mostPopularMovies = [], mostPopularTvs = [], bigMovieCardDat
         <>
           <div className="swiper__title-wrapper">
             <h2 className="swiper__title">Most Popular Movies</h2>
-            <a href="/movie/1">Show All</a>
+            <Link to="/movie/1">Show All</Link>
           </div>
           <Slider category={CATEGORIES.movie} items={mostPopularMovies} />
         </>
@@ -25,7 +26,7 @@ const MainPage = ({ mostPopularMovies = [], mostPopularTvs = [], bigMovieCardDat
         <>
           <div className="swiper__title-wrapper">
             <h2 className="swiper__title">Most Popular TV Shows</h2>
-            <a href="/tv/1">Show All</a>
+            <Link to="/tv/1">Show All</Link>
           </div>
           <Slider category={CATEGORIES.tv} items={mostPopularTvs} />
         </>

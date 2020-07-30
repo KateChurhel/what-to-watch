@@ -1,8 +1,8 @@
 // libraries
 import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import { Link, useHistory, useParams } from 'react-router-dom';
 // api
-import { useHistory, useParams } from 'react-router-dom';
 import { getGenres } from '../../../api/movies';
 // actions
 import { addActiveGenre, removeActiveGenre, clearActiveGenres } from '../../../actions/genres';
@@ -30,9 +30,9 @@ const GenresList = () => {
 
         return (
           <li key={id} className={`catalog__genres-item ${isActive ? 'catalog__genres-item--active' : ''}`}>
-            <a
+            <Link
               className="catalog__genres-link"
-              href="/"
+              to="/"
               onClick={(event) => {
                 event.preventDefault();
                 if (id) {
@@ -48,7 +48,7 @@ const GenresList = () => {
               }}
             >
               {name}
-            </a>
+            </Link>
           </li>
         );
       })}

@@ -2,11 +2,13 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://katechurhel.github.io/what-to-watch/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "enzyme-to-json": "3.5.0",
+    "gh-pages": "^3.1.0",
     "moment": "2.27.0",
     "moment-duration-format": "2.3.2",
     "normalize.css": "^8.0.1",
@@ -49,7 +51,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "test:coverage": "react-scripts test --coverage --watchAll"
+    "test:coverage": "react-scripts test --coverage --watchAll",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintIgnore": [
     "**/__tests__/*.js"

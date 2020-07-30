@@ -4,12 +4,12 @@ exports[`Footer correctly renders 1`] = `
 <footer
   className="page-footer"
 >
-  <a
+  <Link
     className="logo logo--light"
-    href="/"
+    to="/"
   >
     WTW
-  </a>
+  </Link>
   <div
     className="copyright"
   >

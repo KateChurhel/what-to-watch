@@ -20,7 +20,7 @@ const MovieTabCast = ({ cast = [] }) => (
                 className="movie-card__cast-image"
                 height="175"
                 loading="lazy"
-                src={profilePath ? `${URL_IMAGE.castPhoto}${profilePath}` : reservedImage}
+                src={profilePath ? `${URL_IMAGE.castPhoto}${profilePath}` : `${process.env.PUBLIC_URL}${reservedImage}`}
                 width="138"
               />
               <p className="movie-card__cast-name">{profileName}</p>
