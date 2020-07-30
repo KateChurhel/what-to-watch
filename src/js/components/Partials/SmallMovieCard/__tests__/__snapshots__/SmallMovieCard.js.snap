@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Small Movie Card:  correctly renders with data 1`] = `
+<a
+  className="small-movie-card catalog__movies-card small-movie-card__link"
+  href="/link"
+>
+  <div
+    className="small-movie-card__image "
+  >
+    <img
+      alt="Title"
+      height="450"
+      loading="lazy"
+      src="https://image.tmdb.org/t/p/w300/poster.jpg"
+      width="300"
+    />
+  </div>
+  <div
+    className="small-movie-card__info"
+  >
+    <h3
+      className="small-movie-card__title"
+    >
+      Title
+    </h3>
+  </div>
+</a>
+`;
+
+exports[`Small Movie Card:  correctly renders without data 1`] = `""`;
+
+exports[`Small Movie Card:  correctly renders without poster 1`] = `
+<a
+  className="small-movie-card catalog__movies-card small-movie-card__link"
+  href="/link"
+>
+  <div
+    className="small-movie-card__image small-movie-card__image--no-image"
+  >
+    <img
+      alt="Title"
+      height="450"
+      loading="lazy"
+      src="/img/no-poster.jpeg"
+      width="300"
+    />
+  </div>
+  <div
+    className="small-movie-card__info"
+  >
+    <h3
+      className="small-movie-card__title"
+    >
+      Title
+    </h3>
+  </div>
+</a>
+`;

@@ -1,0 +1,237 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Catalog Page:  correctly renders with 1 result 1`] = `
+<DocumentFragment>
+  <div
+    class="catalog container "
+  >
+    <h2
+      class="page-title"
+    >
+      Movies
+    </h2>
+    <div
+      class="catalog__movies-list"
+    >
+      <a
+        class="small-movie-card catalog__movies-card small-movie-card__link"
+        href="/details/movie/313369"
+      >
+        <div
+          class="small-movie-card__image "
+        >
+          <img
+            alt="La La Land"
+            height="450"
+            loading="lazy"
+            src="https://image.tmdb.org/t/p/w300/uDO8zWDhfWwoFdKS4fzkUJt0Rf0.jpg"
+            width="300"
+          />
+        </div>
+        <div
+          class="small-movie-card__info"
+        >
+          <h3
+            class="small-movie-card__title"
+          >
+            La La Land
+          </h3>
+        </div>
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Catalog Page:  correctly renders with empty result 1`] = `
+<DocumentFragment>
+  <div
+    class="catalog container "
+  >
+    <h2
+      class="page-title"
+    >
+      Movies
+    </h2>
+    <div
+      class="page-message"
+    >
+      No results found
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Catalog Page:  correctly renders with empty search result 1`] = `
+<DocumentFragment>
+  <div
+    class="catalog container "
+  >
+    <h2
+      class="page-title"
+    >
+      Search Results - 0 found
+    </h2>
+    <div
+      class="page-message"
+    >
+      No results found
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Catalog Page:  correctly renders with filter and pagination 1`] = `
+<DocumentFragment>
+  <div
+    class="catalog container "
+  >
+    <h2
+      class="page-title"
+    >
+      TV Shows
+    </h2>
+    <div
+      class="catalog__movies-list"
+    >
+      <a
+        class="small-movie-card catalog__movies-card small-movie-card__link"
+        href="/details/tv/313369"
+      >
+        <div
+          class="small-movie-card__image "
+        >
+          <img
+            alt="La La Land"
+            height="450"
+            loading="lazy"
+            src="https://image.tmdb.org/t/p/w300/uDO8zWDhfWwoFdKS4fzkUJt0Rf0.jpg"
+            width="300"
+          />
+        </div>
+        <div
+          class="small-movie-card__info"
+        >
+          <h3
+            class="small-movie-card__title"
+          >
+            La La Land
+          </h3>
+        </div>
+      </a>
+      <a
+        class="small-movie-card catalog__movies-card small-movie-card__link"
+        href="/details/tv/516486"
+      >
+        <div
+          class="small-movie-card__image "
+        >
+          <img
+            alt="Greyhound"
+            height="450"
+            loading="lazy"
+            src="https://image.tmdb.org/t/p/w300/kjMbDciooTbJPofVXgAoFjfX8Of.jpg"
+            width="300"
+          />
+        </div>
+        <div
+          class="small-movie-card__info"
+        >
+          <h3
+            class="small-movie-card__title"
+          >
+            Greyhound
+          </h3>
+        </div>
+      </a>
+      <a
+        class="small-movie-card catalog__movies-card small-movie-card__link"
+        href="/details/tv/385103"
+      >
+        <div
+          class="small-movie-card__image "
+        >
+          <img
+            alt="Scoob!"
+            height="450"
+            loading="lazy"
+            src="https://image.tmdb.org/t/p/w300/jHo2M1OiH9Re33jYtUQdfzPeUkx.jpg"
+            width="300"
+          />
+        </div>
+        <div
+          class="small-movie-card__info"
+        >
+          <h3
+            class="small-movie-card__title"
+          >
+            Scoob!
+          </h3>
+        </div>
+      </a>
+    </div>
+    <ul
+      class="pagination"
+    >
+      <li>
+        <span
+          class="pagination__page-number pagination__active-page"
+        >
+          1
+        </span>
+      </li>
+      <li>
+        <a
+          class="pagination__page-number"
+          href="/tv/2"
+        >
+          2
+        </a>
+      </li>
+    </ul>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Catalog Page:  correctly renders with search result 1`] = `
+<DocumentFragment>
+  <div
+    class="catalog container "
+  >
+    <h2
+      class="page-title"
+    >
+      Search Results - 1 found
+    </h2>
+    <div
+      class="catalog__movies-list"
+    >
+      <a
+        class="small-movie-card catalog__movies-card small-movie-card__link"
+        href="/details/movie/313369"
+      >
+        <div
+          class="small-movie-card__image "
+        >
+          <img
+            alt="La La Land"
+            height="450"
+            loading="lazy"
+            src="https://image.tmdb.org/t/p/w300/uDO8zWDhfWwoFdKS4fzkUJt0Rf0.jpg"
+            width="300"
+          />
+        </div>
+        <div
+          class="small-movie-card__info"
+        >
+          <h3
+            class="small-movie-card__title"
+          >
+            La La Land
+          </h3>
+        </div>
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;

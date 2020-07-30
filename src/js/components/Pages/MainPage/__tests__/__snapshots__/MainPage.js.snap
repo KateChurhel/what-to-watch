@@ -1,0 +1,255 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main Page:  correctly renders 1`] = `
+<DocumentFragment>
+  <section
+    class="movie-card"
+  >
+    <div
+      class="movie-card__bg"
+      style="background-image: url(https://image.tmdb.org/t/p/original/qJeU7KM4nT2C1WpOrwPcSDGFUWE.jpg);"
+    />
+    <div
+      class="container"
+    >
+      <div
+        class=" movie-card__wrap"
+      >
+        <div
+          class="movie-card__info movie-card__info--main"
+        >
+          <div
+            class="movie-card__poster movie-card__poster--main"
+          >
+            <img
+              alt="La La Land"
+              loading="lazy"
+              src="https://image.tmdb.org/t/p/w300/uDO8zWDhfWwoFdKS4fzkUJt0Rf0.jpg"
+            />
+          </div>
+          <div
+            class="movie-card__desc"
+          >
+            <h2
+              class="movie-card__title"
+            >
+              La La Land (2016)
+            </h2>
+            <p
+              class="movie-card__meta"
+            >
+              <span
+                class="movie-card__genre"
+              >
+                Comedy, Drama, Romance, Music
+              </span>
+              <span
+                class="movie-card__runtime"
+              >
+                2h 9m
+              </span>
+            </p>
+            <i
+              class="movie-card__tagline movie-card__tagline--main"
+            >
+              Here's to the fools who dream.
+            </i>
+            <a
+              class="button movie-card__button"
+              href="/details/movie/313369"
+            >
+              More Info
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div
+    class="container"
+  >
+    <div
+      class="swiper__title-wrapper"
+    >
+      <h2
+        class="swiper__title"
+      >
+        Most Popular Movies
+      </h2>
+      <a
+        href="/movie/1"
+      >
+        Show All
+      </a>
+    </div>
+    <div
+      class="swiper-container swiper-container-initialized swiper-container-horizontal"
+    >
+      <div
+        class="swiper-button-prev"
+      />
+      <div
+        class="swiper-button-next"
+      />
+      <div
+        class="swiper-wrapper"
+        style="transition: 0ms; transform: translate3d(NaNpx, 0px, 0px);"
+      >
+        <div
+          class="swiper-slide"
+        >
+          <a
+            class="small-movie-card catalog__movies-card small-movie-card__link"
+            href="/details/movie/313369"
+          >
+            <div
+              class="small-movie-card__image "
+            >
+              <img
+                alt="La La Land"
+                height="450"
+                loading="lazy"
+                src="https://image.tmdb.org/t/p/w300/uDO8zWDhfWwoFdKS4fzkUJt0Rf0.jpg"
+                width="300"
+              />
+            </div>
+            <div
+              class="small-movie-card__info"
+            >
+              <h3
+                class="small-movie-card__title"
+              >
+                La La Land
+              </h3>
+            </div>
+          </a>
+        </div>
+        <div
+          class="swiper-slide"
+        >
+          <a
+            class="small-movie-card catalog__movies-card small-movie-card__link"
+            href="/details/movie/516486"
+          >
+            <div
+              class="small-movie-card__image "
+            >
+              <img
+                alt="Greyhound"
+                height="450"
+                loading="lazy"
+                src="https://image.tmdb.org/t/p/w300/kjMbDciooTbJPofVXgAoFjfX8Of.jpg"
+                width="300"
+              />
+            </div>
+            <div
+              class="small-movie-card__info"
+            >
+              <h3
+                class="small-movie-card__title"
+              >
+                Greyhound
+              </h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="swiper__title-wrapper"
+    >
+      <h2
+        class="swiper__title"
+      >
+        Most Popular TV Shows
+      </h2>
+      <a
+        href="/tv/1"
+      >
+        Show All
+      </a>
+    </div>
+    <div
+      class="swiper-container swiper-container-initialized swiper-container-horizontal"
+    >
+      <div
+        class="swiper-button-prev"
+      />
+      <div
+        class="swiper-button-next"
+      />
+      <div
+        class="swiper-wrapper"
+        style="transition: 0ms; transform: translate3d(NaNpx, 0px, 0px);"
+      >
+        <div
+          class="swiper-slide"
+        >
+          <a
+            class="small-movie-card catalog__movies-card small-movie-card__link"
+            href="/details/tv/1622"
+          >
+            <div
+              class="small-movie-card__image "
+            >
+              <img
+                alt="Supernatural"
+                height="450"
+                loading="lazy"
+                src="https://image.tmdb.org/t/p/w300/KoYWXbnYuS3b0GyQPkbuexlVK9.jpg"
+                width="300"
+              />
+            </div>
+            <div
+              class="small-movie-card__info"
+            >
+              <h3
+                class="small-movie-card__title"
+              >
+                Supernatural
+              </h3>
+            </div>
+          </a>
+        </div>
+        <div
+          class="swiper-slide"
+        >
+          <a
+            class="small-movie-card catalog__movies-card small-movie-card__link"
+            href="/details/tv/95"
+          >
+            <div
+              class="small-movie-card__image "
+            >
+              <img
+                alt="Buffy the Vampire Slayer"
+                height="450"
+                loading="lazy"
+                src="https://image.tmdb.org/t/p/w300/41jsOEYsh9lJBc6AZqGpR1ETpx5.jpg"
+                width="300"
+              />
+            </div>
+            <div
+              class="small-movie-card__info"
+            >
+              <h3
+                class="small-movie-card__title"
+              >
+                Buffy the Vampire Slayer
+              </h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Main Page:  correctly renders without data 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  />
+</DocumentFragment>
+`;

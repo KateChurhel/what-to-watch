@@ -1,0 +1,214 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Movies Tab Details:  correctly renders with movie data 1`] = `
+<DocumentFragment>
+  <p
+    class="movie-card__details-item"
+  >
+    <strong>
+      Title: 
+    </strong>
+    La La Land
+  </p>
+  <p
+    class="movie-card__details-item"
+  >
+    <strong>
+      Original Title: 
+    </strong>
+    La La Land
+  </p>
+  <p
+    class="movie-card__details-item"
+  >
+    <strong>
+      Quote: 
+    </strong>
+    Here's to the fools who dream.
+  </p>
+  <p
+    class="movie-card__details-item"
+  >
+    <strong>
+       Run Time 
+    </strong>
+    2h 9m
+  </p>
+  <p
+    class="movie-card__details-item"
+  >
+    <strong>
+      Genre: 
+    </strong>
+    Comedy, Drama, Romance, Music
+  </p>
+  <p
+    class="movie-card__details-item"
+  >
+    <strong>
+      Language: 
+    </strong>
+    en
+  </p>
+  <p
+    class="movie-card__details-item"
+  >
+    <strong>
+      Status: 
+    </strong>
+    Released
+  </p>
+  <p
+    class="movie-card__details-item"
+  >
+    <strong>
+      Release date: 
+    </strong>
+    2016-11-29
+  </p>
+  <p
+    class="movie-card__details-item"
+  >
+    <strong>
+      Homepage: 
+    </strong>
+    <a
+      href="http://www.lalaland.movie"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      Link
+    </a>
+  </p>
+</DocumentFragment>
+`;
+
+exports[`Movies Tab Details:  correctly renders with tv data 1`] = `
+<DocumentFragment>
+  <p
+    class="movie-card__details-item"
+  >
+    <strong>
+      Title: 
+    </strong>
+    Supernatural
+  </p>
+  <p
+    class="movie-card__details-item"
+  >
+    <strong>
+      Original Title: 
+    </strong>
+    Supernatural
+  </p>
+  <p
+    class="movie-card__details-item"
+  >
+    <strong>
+      Seasons: 
+    </strong>
+    15
+  </p>
+  <p
+    class="movie-card__details-item"
+  >
+    <strong>
+      Episodes: 
+    </strong>
+    327
+  </p>
+  <p
+    class="movie-card__details-item"
+  >
+    <strong>
+      Episode  Run Time 
+    </strong>
+    0h 45m
+  </p>
+  <p
+    class="movie-card__details-item"
+  >
+    <strong>
+      Genre: 
+    </strong>
+    Drama, Mystery, Sci-Fi & Fantasy
+  </p>
+  <p
+    class="movie-card__details-item"
+  >
+    <strong>
+      Language: 
+    </strong>
+    en
+  </p>
+  <p
+    class="movie-card__details-item"
+  >
+    <strong>
+      Status: 
+    </strong>
+    Returning Series
+  </p>
+  <p
+    class="movie-card__details-item"
+  >
+    <strong>
+      Homepage: 
+    </strong>
+    <a
+      href="http://www.cwtv.com/shows/supernatural"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      Link
+    </a>
+  </p>
+</DocumentFragment>
+`;
+
+exports[`Movies Tab Details:  correctly renders without data 1`] = `
+<DocumentFragment>
+  <p
+    class="movie-card__details-item"
+  >
+    <strong>
+      Title: 
+    </strong>
+  </p>
+  <p
+    class="movie-card__details-item"
+  >
+    <strong>
+      Original Title: 
+    </strong>
+  </p>
+  <p
+    class="movie-card__details-item"
+  >
+    <strong>
+       Run Time 
+    </strong>
+  </p>
+  <p
+    class="movie-card__details-item"
+  >
+    <strong>
+      Genre: 
+    </strong>
+  </p>
+  <p
+    class="movie-card__details-item"
+  >
+    <strong>
+      Language: 
+    </strong>
+  </p>
+  <p
+    class="movie-card__details-item"
+  >
+    <strong>
+      Status: 
+    </strong>
+  </p>
+</DocumentFragment>
+`;

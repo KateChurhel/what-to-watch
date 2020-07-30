@@ -1,0 +1,427 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Details Page:  correctly renders 1`] = `
+<DocumentFragment>
+  <section
+    class="movie-card movie-card--full"
+  >
+    <div
+      class="movie-card__hero"
+    >
+      <div
+        class="movie-card__bg"
+        style="background-image: url(https://image.tmdb.org/t/p/original/qJeU7KM4nT2C1WpOrwPcSDGFUWE.jpg);"
+      />
+      <div
+        class="container"
+      >
+        <div
+          class=" movie-card__wrap"
+        >
+          <div
+            class="movie-card__desc"
+          >
+            <h2
+              class="movie-card__title"
+            >
+              La La Land (2016)
+            </h2>
+            <p
+              class="movie-card__meta"
+            >
+              <span
+                class="movie-card__genre"
+              >
+                Comedy, Drama, Romance, Music
+              </span>
+              <span
+                class="movie-card__runtime"
+              >
+                2h 9m
+              </span>
+            </p>
+            <i
+              class="movie-card__tagline"
+            >
+              Here's to the fools who dream.
+            </i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="container"
+    >
+      <div
+        class=" movie-card__wrap movie-card__translate-top"
+      >
+        <div
+          class="movie-card__info"
+        >
+          <div
+            class="movie-card__poster movie-card__poster--big"
+          >
+            <img
+              alt="La La Land"
+              height="327"
+              loading="lazy"
+              src="https://image.tmdb.org/t/p/w300/uDO8zWDhfWwoFdKS4fzkUJt0Rf0.jpg"
+              width="218"
+            />
+          </div>
+          <div
+            class="movie-card__desc"
+          >
+            <nav
+              class="movie-nav movie-card__nav"
+            >
+              <ul
+                class="movie-nav__list"
+              >
+                <li
+                  class="movie-nav__item movie-nav__item--active"
+                >
+                  <button
+                    class="movie-nav__link"
+                    type="button"
+                  >
+                    Overview
+                  </button>
+                </li>
+                <li
+                  class="movie-nav__item "
+                >
+                  <button
+                    class="movie-nav__link"
+                    type="button"
+                  >
+                    Details
+                  </button>
+                </li>
+                <li
+                  class="movie-nav__item "
+                >
+                  <button
+                    class="movie-nav__link"
+                    type="button"
+                  >
+                    Reviews
+                  </button>
+                </li>
+                <li
+                  class="movie-nav__item "
+                >
+                  <button
+                    class="movie-nav__link"
+                    type="button"
+                  >
+                    Cast
+                  </button>
+                </li>
+              </ul>
+            </nav>
+            <div
+              class="movie-card__tab-wrapper"
+            >
+              <div
+                class="movie-rating"
+              >
+                <div
+                  class="movie-rating__score"
+                >
+                  7.9
+                </div>
+                <p
+                  class="movie-rating__meta"
+                >
+                  <span
+                    class="movie-rating__level"
+                  >
+                    Good
+                  </span>
+                  <span
+                    class="movie-rating__count"
+                  >
+                    12161 ratings
+                  </span>
+                </p>
+              </div>
+              <p
+                class="movie-card__text"
+              >
+                Mia, an aspiring actress, serves lattes to movie stars in between auditions and Sebastian, a jazz musician, scrapes by playing cocktail party gigs in dingy bars, but as success mounts they are faced with decisions that begin to fray the fragile fabric of their love affair, and the dreams they worked so hard to maintain in each other threaten to rip them apart.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div
+    class="container"
+  >
+    <section
+      class="catalog catalog--like-this"
+    >
+      <h2
+        class="catalog__title"
+      >
+        More like this
+      </h2>
+      <div
+        class="swiper-container swiper-container-initialized swiper-container-horizontal"
+      >
+        <div
+          class="swiper-button-prev"
+        />
+        <div
+          class="swiper-button-next"
+        />
+        <div
+          class="swiper-wrapper"
+          style="transition: 0ms; transform: translate3d(NaNpx, 0px, 0px);"
+        >
+          <div
+            class="swiper-slide"
+          >
+            <a
+              class="small-movie-card catalog__movies-card small-movie-card__link"
+              href="/details/movie/340666"
+            >
+              <div
+                class="small-movie-card__image "
+              >
+                <img
+                  alt="Nocturnal Animals"
+                  height="450"
+                  loading="lazy"
+                  src="https://image.tmdb.org/t/p/w300/mdLDgQBD0va09npSQX5Zgo2evXM.jpg"
+                  width="300"
+                />
+              </div>
+              <div
+                class="small-movie-card__info"
+              >
+                <h3
+                  class="small-movie-card__title"
+                >
+                  Nocturnal Animals
+                </h3>
+              </div>
+            </a>
+          </div>
+          <div
+            class="swiper-slide"
+          >
+            <a
+              class="small-movie-card catalog__movies-card small-movie-card__link"
+              href="/details/movie/314365"
+            >
+              <div
+                class="small-movie-card__image "
+              >
+                <img
+                  alt="Spotlight"
+                  height="450"
+                  loading="lazy"
+                  src="https://image.tmdb.org/t/p/w300/pt7ZeF0RKJZgFe11YUxaO4J8GCc.jpg"
+                  width="300"
+                />
+              </div>
+              <div
+                class="small-movie-card__info"
+              >
+                <h3
+                  class="small-movie-card__title"
+                >
+                  Spotlight
+                </h3>
+              </div>
+            </a>
+          </div>
+          <div
+            class="swiper-slide"
+          >
+            <a
+              class="small-movie-card catalog__movies-card small-movie-card__link"
+              href="/details/movie/381284"
+            >
+              <div
+                class="small-movie-card__image "
+              >
+                <img
+                  alt="Hidden Figures"
+                  height="450"
+                  loading="lazy"
+                  src="https://image.tmdb.org/t/p/w300/9lfz2W2uGjyow3am00rsPJ8iOyq.jpg"
+                  width="300"
+                />
+              </div>
+              <div
+                class="small-movie-card__info"
+              >
+                <h3
+                  class="small-movie-card__title"
+                >
+                  Hidden Figures
+                </h3>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Details Page:  correctly renders with empty result 1`] = `
+<DocumentFragment>
+  <section
+    class="movie-card movie-card--full"
+  >
+    <div
+      class="movie-card__hero"
+    >
+      <div
+        class="movie-card__bg"
+        style="background-image: url(https://image.tmdb.org/t/p/originalundefined);"
+      />
+      <div
+        class="container"
+      >
+        <div
+          class=" movie-card__wrap"
+        >
+          <div
+            class="movie-card__desc"
+          >
+            <h2
+              class="movie-card__title"
+            >
+              undefined (undefined)
+            </h2>
+            <p
+              class="movie-card__meta"
+            >
+              <span
+                class="movie-card__genre"
+              />
+              <span
+                class="movie-card__runtime"
+              />
+            </p>
+            <i
+              class="movie-card__tagline"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="container"
+    >
+      <div
+        class=" movie-card__wrap movie-card__translate-top"
+      >
+        <div
+          class="movie-card__info"
+        >
+          <div
+            class="movie-card__poster movie-card__poster--big"
+          >
+            <img
+              height="327"
+              loading="lazy"
+              src="https://image.tmdb.org/t/p/w300undefined"
+              width="218"
+            />
+          </div>
+          <div
+            class="movie-card__desc"
+          >
+            <nav
+              class="movie-nav movie-card__nav"
+            >
+              <ul
+                class="movie-nav__list"
+              >
+                <li
+                  class="movie-nav__item movie-nav__item--active"
+                >
+                  <button
+                    class="movie-nav__link"
+                    type="button"
+                  >
+                    Overview
+                  </button>
+                </li>
+                <li
+                  class="movie-nav__item "
+                >
+                  <button
+                    class="movie-nav__link"
+                    type="button"
+                  >
+                    Details
+                  </button>
+                </li>
+                <li
+                  class="movie-nav__item "
+                >
+                  <button
+                    class="movie-nav__link"
+                    type="button"
+                  >
+                    Reviews
+                  </button>
+                </li>
+                <li
+                  class="movie-nav__item "
+                >
+                  <button
+                    class="movie-nav__link"
+                    type="button"
+                  >
+                    Cast
+                  </button>
+                </li>
+              </ul>
+            </nav>
+            <div
+              class="movie-card__tab-wrapper"
+            >
+              <div
+                class="movie-rating"
+              >
+                <div
+                  class="movie-rating__score"
+                >
+                  0
+                </div>
+                <p
+                  class="movie-rating__meta"
+                >
+                  <span
+                    class="movie-rating__level"
+                  >
+                    Bad
+                  </span>
+                  <span
+                    class="movie-rating__count"
+                  >
+                    0 ratings
+                  </span>
+                </p>
+              </div>
+              <p
+                class="movie-card__text"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;

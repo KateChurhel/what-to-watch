@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Genres List:  correctly renders 1`] = `
+<DocumentFragment>
+  <ul
+    class="catalog__genres-list"
+  >
+    <li
+      class="catalog__genres-item catalog__genres-item--active"
+    >
+      <a
+        class="catalog__genres-link"
+        href="/"
+      >
+        All Genres
+      </a>
+    </li>
+    <li
+      class="catalog__genres-item "
+    >
+      <a
+        class="catalog__genres-link"
+        href="/"
+      >
+        Fantasy
+      </a>
+    </li>
+    <li
+      class="catalog__genres-item "
+    >
+      <a
+        class="catalog__genres-link"
+        href="/"
+      >
+        Horror
+      </a>
+    </li>
+    <li
+      class="catalog__genres-item "
+    >
+      <a
+        class="catalog__genres-link"
+        href="/"
+      >
+        Music
+      </a>
+    </li>
+    <li
+      class="catalog__genres-item "
+    >
+      <a
+        class="catalog__genres-link"
+        href="/"
+      >
+        Mystery
+      </a>
+    </li>
+    <li
+      class="catalog__genres-item "
+    >
+      <a
+        class="catalog__genres-link"
+        href="/"
+      >
+        Romance
+      </a>
+    </li>
+  </ul>
+</DocumentFragment>
+`;

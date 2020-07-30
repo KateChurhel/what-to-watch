@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Big Movie Card:  correctly renders with card data 1`] = `
+<section
+  className="movie-card"
+>
+  <div
+    className="movie-card__bg"
+    style={
+      Object {
+        "backgroundImage": "url('https://image.tmdb.org/t/p/original/qJeU7KM4nT2C1WpOrwPcSDGFUWE.jpg')",
+      }
+    }
+  />
+  <div
+    className="container"
+  >
+    <div
+      className=" movie-card__wrap"
+    >
+      <div
+        className="movie-card__info movie-card__info--main"
+      >
+        <div
+          className="movie-card__poster movie-card__poster--main"
+        >
+          <img
+            alt="La La Land"
+            loading="lazy"
+            src="https://image.tmdb.org/t/p/w300/uDO8zWDhfWwoFdKS4fzkUJt0Rf0.jpg"
+          />
+        </div>
+        <div
+          className="movie-card__desc"
+        >
+          <h2
+            className="movie-card__title"
+          >
+            La La Land (2016)
+          </h2>
+          <p
+            className="movie-card__meta"
+          >
+            <span
+              className="movie-card__genre"
+            >
+              Comedy, Drama, Romance, Music
+            </span>
+            <span
+              className="movie-card__runtime"
+            >
+              2h 9m
+            </span>
+          </p>
+          <i
+            className="movie-card__tagline movie-card__tagline--main"
+          >
+            Here's to the fools who dream.
+          </i>
+          <a
+            className="button movie-card__button"
+            href="/details/movie/313369"
+          >
+            More Info
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`Big Movie Card:  correctly renders with empty data 1`] = `""`;

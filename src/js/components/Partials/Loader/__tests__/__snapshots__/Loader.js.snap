@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader:  correctly renders with loader 1`] = `
+<div
+  className="loader-overlay-container"
+>
+  Test content
+  <div
+    className="loader-spinner-wrapper"
+  >
+    <div
+      className="loader-spinner"
+    />
+  </div>
+</div>
+`;
+
+exports[`Loader:  correctly renders without loader 1`] = `
+<div
+  className=""
+>
+  Test content
+</div>
+`;

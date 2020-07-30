@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Movies Tab Cast:  correctly renders with data 1`] = `
+<div
+  className="movie-card__tab-content-wrapper"
+>
+  <ol
+    className="movie-card__casts"
+  >
+    <li
+      className="movie-card__cast-wrapper"
+      key="cast-26"
+    >
+      <img
+        alt="Ryan Gosling"
+        className="movie-card__cast-image"
+        height="175"
+        loading="lazy"
+        src="https://image.tmdb.org/t/p/w500/lyUyVARQKhGxaxy0FbPJCQRpiaW.jpg"
+        width="138"
+      />
+      <p
+        className="movie-card__cast-name"
+      >
+        Ryan Gosling
+      </p>
+      <p
+        className="movie-card__cast-character"
+      >
+        Sebastian Wilder
+      </p>
+    </li>
+    <li
+      className="movie-card__cast-wrapper"
+      key="cast-27"
+    >
+      <img
+        alt="Emma Stone"
+        className="movie-card__cast-image"
+        height="175"
+        loading="lazy"
+        src="https://image.tmdb.org/t/p/w500/cZ8a3QvAnj2cgcgVL6g4XaqPzpL.jpg"
+        width="138"
+      />
+      <p
+        className="movie-card__cast-name"
+      >
+        Emma Stone
+      </p>
+      <p
+        className="movie-card__cast-character"
+      >
+        Mia Dolan
+      </p>
+    </li>
+    <li
+      className="movie-card__cast-wrapper"
+      key="cast-34"
+    >
+      <img
+        alt="John Legend"
+        className="movie-card__cast-image"
+        height="175"
+        loading="lazy"
+        src="/img/woman-profile.jpeg"
+        width="138"
+      />
+      <p
+        className="movie-card__cast-name"
+      >
+        John Legend
+      </p>
+      <p
+        className="movie-card__cast-character"
+      >
+        Keith
+      </p>
+    </li>
+    <li
+      className="movie-card__cast-wrapper"
+      key="cast-32"
+    >
+      <img
+        alt="Rosemarie DeWitt"
+        className="movie-card__cast-image"
+        height="175"
+        loading="lazy"
+        src="/img/man-profile.jpeg"
+        width="138"
+      />
+      <p
+        className="movie-card__cast-name"
+      >
+        Rosemarie DeWitt
+      </p>
+      <p
+        className="movie-card__cast-character"
+      >
+        Laura Wilder
+      </p>
+    </li>
+  </ol>
+</div>
+`;
+
+exports[`Movies Tab Cast:  correctly renders without data 1`] = `
+<div
+  className="movie-card__tab-content-wrapper"
+>
+  <p>
+    Cast not found
+  </p>
+</div>
+`;

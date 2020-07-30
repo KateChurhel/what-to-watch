@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App correctly renders after relaunch 1`] = `
+<Fragment>
+  <Header />
+  <main>
+    <Switch>
+      <Route
+        component={[Function]}
+        path="/details/:category/:cardId"
+      />
+      <Route
+        component={[Function]}
+        path={
+          Array [
+            "/search/:category/:page",
+            "/:category/:page",
+          ]
+        }
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="*"
+      />
+    </Switch>
+  </main>
+  <Footer />
+</Fragment>
+`;

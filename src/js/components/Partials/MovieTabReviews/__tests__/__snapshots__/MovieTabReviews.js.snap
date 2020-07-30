@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Movies Tab Reviews:  correctly renders with data 1`] = `
+<div
+  className="movie-card__tab-content-wrapper"
+>
+  <div
+    className="review"
+    key="review-58e3a6a4c3a368731a0209e8"
+  >
+    <blockquote
+      className="review__quote"
+    >
+      <p
+        className="review__text"
+      >
+        "To me, _La La Land_ is like religion. I see the appeal, and I would never take it away from anyone. But I would also never stand in line for it." 
+- Jeff WInger, probably.
+
+_Final rating:★★½ - Not quite for me, but I definitely get the appeal._
+      </p>
+      <footer
+        className="review__details"
+      >
+        <cite
+          className="review__author"
+        >
+          Gimly
+        </cite>
+        <a
+          href="https://www.themoviedb.org/review/58e3a6a4c3a368731a0209e8"
+        >
+          More Details
+        </a>
+      </footer>
+    </blockquote>
+  </div>
+  <div
+    className="review"
+    key="review-58fff29bc3a3681036004140"
+  >
+    <blockquote
+      className="review__quote"
+    >
+      <p
+        className="review__text"
+      >
+        A very special, memorable film that will be iconic in the years to come.
+      </p>
+      <footer
+        className="review__details"
+      >
+        <cite
+          className="review__author"
+        >
+          🌹 Rose
+        </cite>
+        <a
+          href="https://www.themoviedb.org/review/58fff29bc3a3681036004140"
+        >
+          More Details
+        </a>
+      </footer>
+    </blockquote>
+  </div>
+  <div
+    className="review"
+    key="review-595e3425c3a36828fc07c036"
+  >
+    <blockquote
+      className="review__quote"
+    >
+      <p
+        className="review__text"
+      >
+        This is definitely not a movie that I would have chosen to watch all by myself which perhaps explain why I thought it was just surprisingly okay to watch. However my girlfriend absolutely wanted to watch it so I got it. As it turned out my girlfriend had only gone by the number of Oscars and not really looked up what kind of movie it actually was so in the end I was enjoying the movie a lot more than she did.
+
+This movie is pretty much a quite classical Hollywood musical with a non too original story, nice music and dancing. In addition the cinematography  is simply excellent. This is the strong point of this movie. The rest of the movie is of lesser interest to me but the cinematography is really, really good. The scene, pictured on the movie poster, were Mia and Sebastian dances and everything in the scene are dark blue tones except Mia’s bright yellow dress is so simple and yet so beautiful.
+
+Everything else about this movie is…okay. Okay acting, okay story etc.  As I wrote before this is really not my kind of movie so forgive me for not being overly enthusiastic. I am sure those into these kind of movies cannot understand how anyone can give it less than a full set of stars but hey, different tastes and all that.
+
+I cannot make up my mind about ending. On one hand I am a sucker for happy endings which this one falls a wee bit short on. On the other hand I have to commend the writer/director for not taking the path of least resistance and instead putting together something a wee bit different.
+
+I did feel that a part of the movie was missing though. I would have liked to see the parts where Mia and Sebastian actually fulfilled their respective dreams. Jumping fast forward to the ending like the movie did felt a bit like they either ran out of money or they manage to misplace half the story!
+
+Anyway, I enjoyed the movie more than I thought I would.
+      </p>
+      <footer
+        className="review__details"
+      >
+        <cite
+          className="review__author"
+        >
+          Per Gunnar Jonsson
+        </cite>
+        <a
+          href="https://www.themoviedb.org/review/595e3425c3a36828fc07c036"
+        >
+          More Details
+        </a>
+      </footer>
+    </blockquote>
+  </div>
+  <div
+    className="review"
+    key="review-597e07e0c3a3685451019402"
+  >
+    <blockquote
+      className="review__quote"
+    >
+      <p
+        className="review__text"
+      >
+        **They'd crossed each others life while chasing their dreams.**
+
+I am not a big fan of modern musical films. So I was not expecting it to be a great or worst. The film opened with a song that I was not happy, because I did not like the verse or the music. And again to say, the modern timeline does not suit for the musical theme, unless it is a fantasy or an Indian film. 
+
+The best part of the film was, those song fades away as the film progresses. But I kind of liked the drama/story part and the climax track with the quick flashback (kind of). Till that scene I was considering it an average film, but that one scene changed my stance. So, now I think it is a good film, but winning 6 Oscars, I don't know it deserved that.
+
+Yes, the director is known for making music and musical film, but he has not made many. He's young and so his career. Yep, I loved 'Whiplash'. One of my all time favourite. If that film had won 10 Oscars, I would have not surprised at all. After that flick, the people were anticipating, to exceed that success in this film. As it was received, no doubt for those people it was a different flick, but not for me. Especially if you watch lots of Indian films. By the way the film characters were nice, and so the story, but not the songs.
+
+Gosling and Stone were performed well. The chemistry between them was great. The narration was going decently until the end, which reminded me 'Vinnaithaandi Varuvaaya' ending that I was not happy about, yet something different than usual. Sometimes I am okay with cliché than this kind of conclusion, just to bring a change in storytelling. Overall an enjoyable film, most people would love it. Some like me would say it is a decent flick, but there's always a few who would never favour it. Yet worth a watch.
+
+_7/10_
+      </p>
+      <footer
+        className="review__details"
+      >
+        <cite
+          className="review__author"
+        >
+          Reno
+        </cite>
+        <a
+          href="https://www.themoviedb.org/review/597e07e0c3a3685451019402"
+        >
+          More Details
+        </a>
+      </footer>
+    </blockquote>
+  </div>
+</div>
+`;
+
+exports[`Movies Tab Reviews:  correctly renders without data 1`] = `
+<div
+  className="movie-card__tab-content-wrapper"
+>
+  No reviews
+</div>
+`;

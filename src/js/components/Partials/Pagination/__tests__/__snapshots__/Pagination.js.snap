@@ -1,0 +1,265 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination:  correctly renders 1`] = `
+<ul
+  className="pagination"
+>
+  <li>
+    <a
+      className="pagination__page-number"
+      href="/movie/1"
+      onClick={[Function]}
+    >
+      1
+    </a>
+  </li>
+  <li>
+    <span
+      className="pagination__page-number pagination__active-page"
+    >
+      2
+    </span>
+  </li>
+  <li>
+    <a
+      className="pagination__page-number"
+      href="/movie/3"
+      onClick={[Function]}
+    >
+      3
+    </a>
+  </li>
+  <li>
+    <a
+      className="pagination__page-number"
+      href="/movie/4"
+      onClick={[Function]}
+    >
+      4
+    </a>
+  </li>
+  <li>
+    <a
+      className="pagination__page-number"
+      href="/movie/5"
+      onClick={[Function]}
+    >
+      5
+    </a>
+  </li>
+  <li>
+    <a
+      className="pagination__page-number"
+      href="/movie/6"
+      onClick={[Function]}
+    >
+      6
+    </a>
+  </li>
+  <li>
+    <span
+      className="pagination__ellipsis"
+    >
+      ...
+    </span>
+  </li>
+  <li>
+    <a
+      className="pagination__page-number"
+      href="/movie/10"
+      onClick={[Function]}
+    >
+      10
+    </a>
+  </li>
+</ul>
+`;
+
+exports[`Pagination:  correctly renders with active element in the center of pagination 1`] = `
+<ul
+  className="pagination"
+>
+  <li>
+    <a
+      className="pagination__page-number"
+      href="/movie/1"
+      onClick={[Function]}
+    >
+      1
+    </a>
+  </li>
+  <li>
+    <span
+      className="pagination__ellipsis"
+    >
+      ...
+    </span>
+  </li>
+  <li>
+    <a
+      className="pagination__page-number"
+      href="/movie/6"
+      onClick={[Function]}
+    >
+      6
+    </a>
+  </li>
+  <li>
+    <a
+      className="pagination__page-number"
+      href="/movie/7"
+      onClick={[Function]}
+    >
+      7
+    </a>
+  </li>
+  <li>
+    <span
+      className="pagination__page-number pagination__active-page"
+    >
+      8
+    </span>
+  </li>
+  <li>
+    <a
+      className="pagination__page-number"
+      href="/movie/9"
+      onClick={[Function]}
+    >
+      9
+    </a>
+  </li>
+  <li>
+    <a
+      className="pagination__page-number"
+      href="/movie/10"
+      onClick={[Function]}
+    >
+      10
+    </a>
+  </li>
+  <li>
+    <span
+      className="pagination__ellipsis"
+    >
+      ...
+    </span>
+  </li>
+  <li>
+    <a
+      className="pagination__page-number"
+      href="/movie/15"
+      onClick={[Function]}
+    >
+      15
+    </a>
+  </li>
+</ul>
+`;
+
+exports[`Pagination:  correctly renders with active element in the end of pagination 1`] = `
+<ul
+  className="pagination"
+>
+  <li>
+    <a
+      className="pagination__page-number"
+      href="/movie/1"
+      onClick={[Function]}
+    >
+      1
+    </a>
+  </li>
+  <li>
+    <span
+      className="pagination__ellipsis"
+    >
+      ...
+    </span>
+  </li>
+  <li>
+    <a
+      className="pagination__page-number"
+      href="/movie/5"
+      onClick={[Function]}
+    >
+      5
+    </a>
+  </li>
+  <li>
+    <a
+      className="pagination__page-number"
+      href="/movie/6"
+      onClick={[Function]}
+    >
+      6
+    </a>
+  </li>
+  <li>
+    <a
+      className="pagination__page-number"
+      href="/movie/7"
+      onClick={[Function]}
+    >
+      7
+    </a>
+  </li>
+  <li>
+    <span
+      className="pagination__page-number pagination__active-page"
+    >
+      8
+    </span>
+  </li>
+  <li>
+    <a
+      className="pagination__page-number"
+      href="/movie/9"
+      onClick={[Function]}
+    >
+      9
+    </a>
+  </li>
+  <li>
+    <a
+      className="pagination__page-number"
+      href="/movie/10"
+      onClick={[Function]}
+    >
+      10
+    </a>
+  </li>
+</ul>
+`;
+
+exports[`Pagination:  correctly renders without ellipses 1`] = `
+<ul
+  className="pagination"
+>
+  <li>
+    <a
+      className="pagination__page-number"
+      href="/movie/1"
+      onClick={[Function]}
+    >
+      1
+    </a>
+  </li>
+  <li>
+    <a
+      className="pagination__page-number"
+      href="/movie/2"
+      onClick={[Function]}
+    >
+      2
+    </a>
+  </li>
+  <li>
+    <span
+      className="pagination__page-number pagination__active-page"
+    >
+      3
+    </span>
+  </li>
+</ul>
+`;

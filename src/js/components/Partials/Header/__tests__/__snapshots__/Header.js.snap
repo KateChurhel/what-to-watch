@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header:  correctly renders 1`] = `
+<header
+  className="page-header "
+>
+  <div
+    className="container"
+  >
+    <a
+      className="logo"
+      href="/"
+    >
+      WTW
+    </a>
+    <div
+      className="page-header__menu-wrapper"
+    >
+      <nav>
+        <ul
+          className="page-nav"
+        >
+          <li
+            className="page-nav__item"
+          >
+            <a
+              className="page-nav__link"
+              href="/movie/1"
+            >
+              Movies
+            </a>
+          </li>
+          <li
+            className="page-nav__item"
+          >
+            <a
+              className="page-nav__link"
+              href="/tv/1"
+            >
+              TV Shows
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <SearchBar
+        closeMobileNav={[Function]}
+      />
+    </div>
+    <button
+      className="page-nav__hamburger-button"
+      onClick={[Function]}
+      type="button"
+    >
+      <span />
+    </button>
+  </div>
+</header>
+`;
+
+exports[`Header:  open mobile menu 1`] = `
+<header
+  className="page-header page-header__show-menu"
+>
+  <div
+    className="container"
+  >
+    <a
+      className="logo"
+      href="/"
+    >
+      WTW
+    </a>
+    <div
+      className="page-header__menu-wrapper"
+    >
+      <nav>
+        <ul
+          className="page-nav"
+        >
+          <li
+            className="page-nav__item"
+          >
+            <a
+              className="page-nav__link"
+              href="/movie/1"
+            >
+              Movies
+            </a>
+          </li>
+          <li
+            className="page-nav__item"
+          >
+            <a
+              className="page-nav__link"
+              href="/tv/1"
+            >
+              TV Shows
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <SearchBar
+        closeMobileNav={[Function]}
+      />
+    </div>
+    <button
+      className="page-nav__hamburger-button"
+      onClick={[Function]}
+      type="button"
+    >
+      <span />
+    </button>
+  </div>
+</header>
+`;

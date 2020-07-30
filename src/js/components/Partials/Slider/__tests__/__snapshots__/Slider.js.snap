@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Slider:  correctly renders 1`] = `
+<div
+  className="swiper-container"
+>
+  <div
+    className="swiper-button-prev"
+  />
+  <div
+    className="swiper-button-next"
+  />
+  <div
+    className="swiper-wrapper"
+  >
+    <div
+      className="swiper-slide"
+    >
+      <a
+        className="small-movie-card catalog__movies-card small-movie-card__link"
+        href="/details/movie/313369"
+      >
+        <div
+          className="small-movie-card__image "
+        >
+          <img
+            alt="La La Land"
+            height="450"
+            loading="lazy"
+            src="https://image.tmdb.org/t/p/w300/uDO8zWDhfWwoFdKS4fzkUJt0Rf0.jpg"
+            width="300"
+          />
+        </div>
+        <div
+          className="small-movie-card__info"
+        >
+          <h3
+            className="small-movie-card__title"
+          >
+            La La Land
+          </h3>
+        </div>
+      </a>
+    </div>
+    <div
+      className="swiper-slide"
+    >
+      <a
+        className="small-movie-card catalog__movies-card small-movie-card__link"
+        href="/details/movie/516486"
+      >
+        <div
+          className="small-movie-card__image "
+        >
+          <img
+            alt="Greyhound"
+            height="450"
+            loading="lazy"
+            src="https://image.tmdb.org/t/p/w300/kjMbDciooTbJPofVXgAoFjfX8Of.jpg"
+            width="300"
+          />
+        </div>
+        <div
+          className="small-movie-card__info"
+        >
+          <h3
+            className="small-movie-card__title"
+          >
+            Greyhound
+          </h3>
+        </div>
+      </a>
+    </div>
+    <div
+      className="swiper-slide"
+    >
+      <a
+        className="small-movie-card catalog__movies-card small-movie-card__link"
+        href="/details/movie/385103"
+      >
+        <div
+          className="small-movie-card__image "
+        >
+          <img
+            alt="Scoob!"
+            height="450"
+            loading="lazy"
+            src="https://image.tmdb.org/t/p/w300/jHo2M1OiH9Re33jYtUQdfzPeUkx.jpg"
+            width="300"
+          />
+        </div>
+        <div
+          className="small-movie-card__info"
+        >
+          <h3
+            className="small-movie-card__title"
+          >
+            Scoob!
+          </h3>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Slider:  correctly renders without data 1`] = `
+<div
+  className="swiper-container"
+>
+  <div
+    className="swiper-button-prev"
+  />
+  <div
+    className="swiper-button-next"
+  />
+  <div
+    className="swiper-wrapper"
+  />
+</div>
+`;

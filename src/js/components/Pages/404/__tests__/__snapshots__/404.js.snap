@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page Not Found (404) correctly renders 1`] = `
+<div
+  className="container page-not-found"
+>
+  <div
+    className="page-not-found__title"
+  >
+    404
+  </div>
+  <p
+    className="page-not-found__subtitle"
+  >
+    Oops! Page not found
+  </p>
+  <p
+    className="page-not-found__description"
+  >
+    Please go to the Home page by clicking the button below.
+  </p>
+  <button
+    className="button page-not-found__button"
+    onClick={[Function]}
+    type="button"
+  >
+    Go to Home page
+  </button>
+</div>
+`;
