@@ -1,0 +1,35 @@
+// -----------------------------------------------------------------------------
+//  Objects > Logo
+// -----------------------------------------------------------------------------
+
+.logo {
+  border: 1px solid $c-logo-text;
+  border-radius: 5px;
+  color: $c-logo-text;
+  display: inline-block;
+  font-size: 26px;
+  font-weight: bold;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  transition: color .2s, border-color .2s;
+  z-index: 10;
+
+  &[href]:hover,
+  &[href]:focus {
+    border-color: rgba($c-logo-text, .6);
+    color: rgba($c-logo-text, .6);
+  }
+}
+
+.logo--light {
+  border: 1px solid rgba($c-light-logo-text, .6);
+  color: $c-light-logo-text;
+  margin: 0 auto 24px;
+
+  &[href]:hover,
+  &[href]:focus {
+    border-color: rgba($c-logo-text, .6);
+    color: $c-logo-text;
+  }
+}

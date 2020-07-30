@@ -1,0 +1,61 @@
+// -----------------------------------------------------------------------------
+//  Components > Page header
+// -----------------------------------------------------------------------------
+
+.page-header {
+  background: rgba($c-body-bg, .8);
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+
+  .container {
+    align-items: center;
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  .page-header__menu-wrapper {
+    display: none;
+
+    @media (min-width: $screen-sm-min) {
+      align-items: center;
+      display: flex;
+    }
+  }
+
+  .logo {
+    margin-right: auto;
+  }
+}
+
+.page-header__show-menu {
+  @media (max-width: $screen-xs-max) {
+    .page-nav__hamburger-button {
+      span {
+        background-color: $c-transparent;
+
+        &::before,
+        &::after {
+          transform: translateY(-8%) rotate(45deg);
+        }
+
+        &::after {
+          transform: translateY(8%) rotate(-45deg);
+        }
+      }
+    }
+
+    .page-header__menu-wrapper {
+      background-color: $c-body-bg;
+      box-sizing: border-box;
+      display: block;
+      height: 100vh;
+      left: 0;
+      padding: 90px 30px;
+      position: absolute;
+      top: 0;
+      width: 100%;
+    }
+  }
+}

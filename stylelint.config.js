@@ -13,7 +13,7 @@ module.exports = {
 
     'scale-unlimited/declaration-strict-value': [
       [
-        '/color/', 'z-index', 'font-family', 'fill', 'stroke',
+        '/color/', 'font-family', 'fill', 'stroke',
       ],
     ],
 

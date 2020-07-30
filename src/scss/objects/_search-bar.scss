@@ -1,0 +1,67 @@
+// -----------------------------------------------------------------------------
+//  Objects > Search bar
+// -----------------------------------------------------------------------------
+
+.search-bar {
+  align-items: center;
+  border: 1px solid $c-search-bar-border;
+  border-radius: 5px;
+  display: flex;
+  height: 30px;
+
+  @media (max-width: $screen-xs-max) {
+    width: 100%;
+  }
+
+  &:hover,
+  &:focus {
+    border-color: $c-search-bar-border;
+  }
+
+  .search-bar__input,
+  select {
+    background-color: $c-transparent;
+    border: none;
+    color: $c-search-bar-border;
+    height: 100%;
+  }
+
+  select {
+    option {
+      background-color: $c-search-bar-select;
+    }
+  }
+}
+
+.search-bar__form {
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+.search-bar__input {
+  max-width: 130px;
+  padding: 0 5px;
+
+  @media (max-width: $screen-xs-max) {
+    flex-grow: 1;
+    max-width: 100%;
+  }
+}
+
+.search-bar__button {
+  background: 0;
+  border: 0;
+  box-sizing: border-box;
+  padding: 0 5px;
+
+  &:hover {
+    svg {
+      fill: $c-search-bar-active;
+    }
+  }
+
+  svg {
+    fill: $c-search-bar-border;
+  }
+}

@@ -1,0 +1,47 @@
+// -----------------------------------------------------------------------------
+//  Elements > Body
+// -----------------------------------------------------------------------------
+
+html,
+body {
+  background: $c-body-bg;
+  color: $c-body-text;
+  font-family: $font-family-default;
+  font-size: $font-size-default;
+  line-height: 23px;
+  max-width: 100vw;
+  min-width: $screen-xs-min;
+  overflow-x: hidden;
+  position: relative;
+}
+
+body {
+  &.nav-mobile-scroll-lock {
+    overflow-y: hidden;
+    position: fixed;
+  }
+}
+
+html {
+  text-size-adjust: none;
+  touch-action: manipulation;
+}
+
+main {
+  display: block;
+}
+
+a {
+  color: rgba($c-link, .6);
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

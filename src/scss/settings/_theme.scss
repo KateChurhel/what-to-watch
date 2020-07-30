@@ -1,0 +1,77 @@
+// -----------------------------------------------------------------------------
+//  Settings > Theme
+// -----------------------------------------------------------------------------
+//  01. Body
+//  02. Catalog
+//  03. Copyrights
+//  05. Buttons
+//  06. Movie card
+//  07. Loader
+//  08. Logo
+//  09. Movie rating
+//  10. Navigation
+//  11. Pagination
+//  12. Search bar
+//  13. Slider
+//  14. Title
+// -----------------------------------------------------------------------------
+
+//  01. Body
+$c-body-bg: $c-dark-gray;
+$c-body-text: $c-yellow;
+
+//  02. Catalog
+$c-catalog-title: $c-yellow;
+$c-catalog-genres-link-border: $c-light-yellow;
+$c-catalog-genres-link: $c-yellow;
+
+//  03. Copyright
+$c-copyright: $c-light-gray;
+
+//  04. Links
+$c-link: $c-light-yellow;
+
+//  05. Buttons
+$c-button-border: $c-white;
+$c-button-border-active: $c-yellow;
+$c-button-text: $c-white;
+
+//  06. Movie card
+$c-movie-card-text: $c-light-yellow;
+$c-movie-card-bg: $c-gray;
+$c-small-movie-card-test: $c-yellow;
+
+//  07. Loader
+$c-loader-spinner-border: $c-white;
+$c-loader-spinner-border-top: $c-transparent;
+
+//  08. Logo
+$c-logo-text: $c-dark-yellow;
+$c-light-logo-text: $c-light-gray;
+
+//  09. Movie rating
+$c-movie-rating-text: $c-light-yellow;
+$c-movie-rating-bg: $c-gray;
+
+//  10. Navigation
+$c-page-nav-link: $c-dark-yellow;
+$c-page-nav-hamburger: $c-white;
+$c-movie-nav-link: $c-light-yellow;
+
+//  11. Pagination
+$c-pagination-page-number: $c-light-gray-2;
+$c-pagination-page-number-active: $c-black;
+$c-pagination-ellipsis: $c-white;
+
+//  12. Search bar
+$c-search-bar-border: $c-white;
+$c-search-bar-active: $c-yellow;
+$c-search-bar-select: $c-black;
+
+//  13. Slider
+$c-slider-button-bg: $c-black;
+$c-slider-button-theme: $c-graphite;
+$c-slider-active-button-theme: $c-white;
+
+//  14. Title
+$c-title: $c-yellow;

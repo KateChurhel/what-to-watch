@@ -1,0 +1,55 @@
+// -----------------------------------------------------------------------------
+//  Objects > Movie nav
+// -----------------------------------------------------------------------------
+
+.movie-nav__list {
+  border-bottom: 2px solid $c-movie-nav-link;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.movie-nav__item {
+  border: 2px solid $c-movie-nav-link;
+  border-bottom-color: transparent;
+  padding: 10px 15px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-right: -2px;
+  margin-bottom: -2px;
+
+  @media (max-width: $screen-xs-max) {
+    font-size: 17px;
+    padding: 5px 10px;
+    flex-grow: 1;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: $c-movie-nav-link;
+
+    .movie-nav__link {
+      color: $c-body-bg;
+    }
+  }
+}
+
+.movie-nav__item--active {
+  background-color: $c-movie-nav-link;
+  .movie-nav__link {
+    color: $c-body-bg;
+  }
+}
+
+.movie-nav__link {
+  color: $c-movie-nav-link;
+  display: block;
+  position: relative;
+  text-decoration: none;
+cursor: pointer;
+  background: none;
+  border: 0;
+  padding: 0;
+}

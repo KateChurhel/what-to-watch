@@ -1,0 +1,83 @@
+// -----------------------------------------------------------------------------
+//  Objects > Page navigation
+// -----------------------------------------------------------------------------
+
+.page-nav {
+  list-style: none;
+  margin: 70px 0 60px;
+  padding: 0;
+
+  @media (min-width: $screen-sm-min) {
+    display: flex;
+    margin: 0 35px 0 0;
+  }
+}
+
+.page-nav__item {
+  margin-right: 25px;
+
+  @media (max-width: $screen-xs-max) {
+    margin-bottom: 20px;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.page-nav__link {
+  color: $c-page-nav-link;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: .3s opacity;
+
+  &:hover,
+  &:focus {
+    opacity: .6;
+  }
+}
+
+.page-nav__hamburger-button {
+  background-color: $c-transparent;
+  border-radius: 5px;
+  height: 55px;
+  position: relative;
+  width: 55px;
+  z-index: 103;
+
+  @media (min-width: $screen-sm-min) {
+    display: none;
+  }
+
+  span {
+    background-color: $c-page-nav-hamburger;
+    display: block;
+    height: 7%;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: background-color linear .2s;
+    width: 60%;
+
+    &::before,
+    &::after {
+      background-color: $c-page-nav-hamburger;
+      content: '';
+      display: block;
+      height: 100%;
+      position: absolute;
+      transform: translateY(-250%);
+      transition: transform linear .3s;
+      width: 100%;
+    }
+
+    &::after {
+      transform: translateY(250%);
+    }
+  }
+}

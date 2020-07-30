@@ -1,0 +1,25 @@
+// -----------------------------------------------------------------------------
+//  Objects > Buttons
+// -----------------------------------------------------------------------------
+
+.button {
+  background: none;
+  border: 1px solid $c-button-border;
+  border-radius: 5px;
+  color: $c-button-text;
+  cursor: pointer;
+  display: block;
+  margin-right: 14px;
+  padding: 10px 15px;
+  text-decoration: none;
+  width: fit-content;
+
+  @media (max-width: $screen-xs-max) {
+    margin: 0 auto;
+  }
+
+  &:hover,
+  &:focus {
+    border-color: $c-button-border-active;
+  }
+}

@@ -1,0 +1,29 @@
+// -----------------------------------------------------------------------------
+//  Components > Page Not Found
+// -----------------------------------------------------------------------------
+
+.page-not-found {
+  padding-top: 200px;
+  text-align: center;
+}
+
+.page-not-found__title {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 80px;
+  margin-bottom: 30px;
+}
+
+.page-not-found__subtitle {
+  font-size: 32px;
+  margin: 0 0 40px;
+}
+
+.page-not-found__description {
+  font-size: 18px;
+  margin: 0 0 30px;
+}
+
+.page-not-found__button {
+  margin: 0 auto;
+}

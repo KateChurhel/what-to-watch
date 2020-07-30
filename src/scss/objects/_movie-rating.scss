@@ -1,0 +1,41 @@
+// -----------------------------------------------------------------------------
+//  Objects > Movie rating
+// -----------------------------------------------------------------------------
+
+.movie-rating {
+  align-items: center;
+  display: flex;
+  padding-bottom: 25px;
+}
+
+.movie-rating__score {
+  background: $c-movie-rating-text;
+  border-radius: 8px;
+  color: $c-movie-rating-bg;
+  font-size: 30px;
+  line-height: 36px;
+  margin-right: 9px;
+  padding: 8px 12px;
+}
+
+.movie-rating__meta {
+  color: $c-movie-rating-text;
+  display: flex;
+  font-size: 19px;
+  margin: 0;
+}
+
+.movie-rating__level {
+  font-weight: bold;
+
+  &::after {
+    content: '·';
+    font-weight: 700;
+    margin-left: 7px;
+    margin-right: 7px;
+  }
+}
+
+.movie-rating__count {
+  color: rgba($c-movie-rating-text, .6);
+}

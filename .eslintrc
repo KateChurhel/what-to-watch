@@ -21,7 +21,7 @@
     "brace-style": ["error", "1tbs", { "allowSingleLine": false }],
     "curly": ["error", "all"],
     "func-style": ["error", "expression"],
-    "max-depth": ["error", 2],
+    "max-depth": ["error", 3],
     "max-len": ["error", { "code": 120 }],
     "max-lines": ["error", {
       "max": 190,
@@ -42,7 +42,8 @@
     "no-multiple-empty-lines": ["error", { "max": 1, "maxBOF": 0, "maxEOF":0 }],
     "no-negated-condition": "error",
     "no-self-assign": ["error", {"props": true}],
-    "no-undefined": "error",
+    "no-undefined": "warn",
+    "no-plusplus": "off",
     "padding-line-between-statements": [
       "error",
       { "blankLine": "always", "prev": "*", "next": "return" }
@@ -57,6 +58,7 @@
     "jsx-a11y/no-noninteractive-element-interactions": "off",
     "jsx-a11y/no-static-element-interactions": "off",
 
+    "react/require-default-props": "off",
     "react/prop-types": "off",
     "react/jsx-sort-props": "error",
     "react/jsx-props-no-spreading": "off",

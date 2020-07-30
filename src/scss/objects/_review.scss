@@ -1,0 +1,43 @@
+// -----------------------------------------------------------------------------
+//  Objects > Review
+// -----------------------------------------------------------------------------
+
+.review {
+  border-bottom: 2px solid $c-movie-card-text;
+  color: rgba($c-movie-card-text, .6);
+  font-size: 17px;
+  line-height: 24px;
+  margin-bottom: 15px;
+  padding-bottom: 20px;
+  position: relative;
+
+  &:last-child {
+    border-bottom: 0;
+    margin-bottom: 0;
+  }
+}
+
+.review__quote {
+  font-size: 17px;
+  line-height: 24px;
+  margin: 0;
+}
+
+.review__text {
+  margin: 0 0 15px;
+}
+
+.review__details {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.review__author {
+  color: $c-movie-card-text;
+  font-style: normal;
+  font-weight: bold;
+  margin-right: auto;
+  padding-right: 15px;
+}

@@ -1,0 +1,79 @@
+// -----------------------------------------------------------------------------
+//  Objects > Swiper
+// -----------------------------------------------------------------------------
+
+.swiper__title-wrapper {
+  margin-bottom: 25px;
+  padding-top: 10px;
+
+  @media (min-width: $screen-sm-min) {
+    align-items: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+.swiper__title {
+  font-size: 28px;
+  line-height: 1.2;
+  margin: 0;
+  text-transform: uppercase;
+
+  @media (max-width: $screen-xs-max) {
+    margin-bottom: 10px;
+  }
+}
+
+.swiper-container {
+  margin-bottom: 110px;
+
+  &:last-child {
+    margin-bottom: 80px;
+  }
+
+  .swiper-button-prev {
+    left: 0;
+  }
+
+  .swiper-button-next {
+    right: 0;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    background-color: rgba($c-slider-button-bg, .65);
+    opacity: 0;
+    padding: 17px 10px;
+    transform: translateY(-50%);
+
+    --swiper-theme-color: $c-slider-button-theme;
+
+    &::after {
+      font-size: 18px;
+      font-weight: bold;
+      transition: transform linear .15s;
+    }
+  }
+
+  &:hover {
+    .swiper-button-next,
+    .swiper-button-prev {
+      opacity: 1;
+
+      &:hover {
+        --swiper-theme-color: $c-slider-active-button-theme;
+
+        &::after {
+          transform: scale(1.33);
+        }
+      }
+    }
+  }
+}
+
+.swiper-slide {
+  .small-movie-card.catalog__movies-card {
+    width: 100%;
+  }
+}

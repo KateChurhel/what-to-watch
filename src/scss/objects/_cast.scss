@@ -1,0 +1,74 @@
+// -----------------------------------------------------------------------------
+//  Objects > Cast
+// -----------------------------------------------------------------------------
+
+.movie-card__casts {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.movie-card__cast-wrapper {
+  box-sizing: border-box;
+  flex-grow: 1;
+  margin-bottom: 40px;
+  margin-right: 20px;
+  max-width: calc(20% - 15px);
+  min-width: 100px;
+  width: calc(20% - 20px);
+
+  @media (max-width: $screen-lg-max) {
+    max-width: calc(25% - 15px);
+    width: calc(25% - 15px);
+  }
+
+  @media (max-width: $screen-sm-max) {
+    max-width: calc(33% - 13px);
+    width: calc(33% - 13px);
+  }
+
+  @media (max-width: $screen-xs-max) {
+    max-width: calc(50% - 10px);
+    width: calc(50% - 10px);
+
+    &:nth-child(2n) {
+      margin-right: 0;
+    }
+  }
+
+  @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+    &:nth-child(3n) {
+      margin-right: 0;
+    }
+  }
+
+  @media (min-width: $screen-md-min) and (max-width: $screen-lg-max) {
+    &:nth-child(4n) {
+      margin-right: 0;
+    }
+  }
+
+  @media (min-width: $screen-mlg-min) {
+    &:nth-child(5n) {
+      margin-right: 0;
+    }
+  }
+}
+
+.movie-card__cast-image {
+  height: auto;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.movie-card__cast-name {
+  font-weight: 700;
+  margin: 0 0 5px;
+}
+
+.movie-card__cast-character {
+  color: rgba($c-movie-card-text, .6);
+  font-size: 16px;
+  margin: 0;
+}

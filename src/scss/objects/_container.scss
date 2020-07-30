@@ -1,0 +1,16 @@
+// -----------------------------------------------------------------------------
+//  Objects > Container
+// -----------------------------------------------------------------------------
+
+.container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: $content-width;
+  padding: 15px 30px;
+  width: 100%;
+
+  &.catalog {
+    padding-bottom: 70px;
+    padding-top: 185px;
+  }
+}

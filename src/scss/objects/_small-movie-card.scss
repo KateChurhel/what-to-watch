@@ -1,0 +1,72 @@
+// -----------------------------------------------------------------------------
+//  Objects > Small movie card
+// -----------------------------------------------------------------------------
+
+.small-movie-card {
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+
+  &:hover {
+    .small-movie-card__title {
+      transform: scale(1.1);
+    }
+
+    .small-movie-card__image {
+      &::after {
+        background-image: linear-gradient(to bottom, $c-transparent 25%, $c-black 97%);
+      }
+    }
+  }
+
+  img {
+    height: 100%;
+    object-fit: cover;
+    vertical-align: top;
+    width: 100%;
+  }
+}
+
+.small-movie-card__image {
+  height: 100%;
+  position: relative;
+  z-index: 1;
+
+  &::after {
+    background-image: linear-gradient(to bottom, $c-transparent 25%, rgba($c-black, .63) 97%);
+    bottom: 0;
+    content: '';
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+  }
+}
+
+.small-movie-card__info {
+  bottom: 0;
+  left: 0;
+  line-height: 20px;
+  margin: 0;
+  padding: 10px 20px;
+  position: absolute;
+  right: 0;
+  z-index: 2;
+}
+
+.small-movie-card__title {
+  color: $c-small-movie-card-test;
+  font-size: 18px;
+  margin: 0 0 5px;
+  padding: 0;
+  text-align: center;
+  transition: .2s transform;
+}
+
+.small-movie-card__link {
+  color: $c-light-yellow;
+  display: inline-block;
+  text-decoration: none;
+  vertical-align: top;
+}
